@@ -1,0 +1,442 @@
+body {
+  background-color: #eef3f7;
+}
+
+/* Navigation Starts */
+header {
+  padding: 30px 0px 20px 0px;
+}
+
+header .logo h1 {
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #232d51;
+}
+
+header .logo h1 span {
+  color: #fc4450;
+}
+
+header nav ul {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  float: left;
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+header nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #232d51;
+}
+/* Navigation Ends */
+
+/* Section-a Starts */
+section.section-a {
+  height: 700px;
+  padding-bottom: 30px;
+  background-color: #eef3f7;
+}
+
+.section-a .theme {
+  position: relative;
+  top: 160px;
+}
+
+.section-a .theme-img {
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: 160px;
+}
+
+.section-a .theme-img img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.section-a .theme h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #232d51;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.section-a .theme p {
+  font-size: 0.9em;
+  font-family: "Mada", sans-serif;
+  margin-bottom: 30px;
+  color: #232d51;
+  font-weight: bold;
+  line-height: 17px;
+}
+
+.section-a .theme a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Mada", sans-serif;
+  color: #fff;
+  background-color: #ff1b2a;
+  font-size: 1em;
+  padding: 18px 60px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.section-a .theme a:hover {
+  background: linear-gradient(to bottom right, #fb6730, #ff1b2a);
+  cursor: pointer;
+}
+/* Section-a Ends  */
+
+/* Section-b Starts */
+section.section-b {
+  background-color: #d8d8d8;
+  position: relative;
+  padding-bottom: 100px;
+  /* height: 800px; */
+  top: -33px;
+}
+
+section.section-b .bg-dark {
+  height: 200px;
+  width: 70%;
+  background-color: #575d72;
+  position: absolute;
+  right: 0;
+  top: -70px;
+}
+
+.section-b .social-icons {
+  position: relative;
+  top: 50px;
+  display: flex;
+}
+
+.section-b .social-icons span {
+  flex-grow: 1;
+  padding-bottom: 10px;
+}
+
+.section-b .social-icons span a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #575d72;
+}
+
+.section-b .social-icons span a:hover {
+  color: #232d51;
+  cursor: pointer;
+  border-bottom: 3px solid #232d51;
+}
+
+.section-b .g-content {
+  position: relative;
+  z-index: 2;
+  font-family: "Lato", sans-serif;
+}
+
+.section-b .g-content h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.section-b .g-content p {
+  color: white;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.section-b .g-content .g-box {
+  height: auto;
+  width: 100%;
+}
+
+.section-b .g-content .g-box img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  top: -30px;
+}
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.section-b .gallery-story {
+  padding: 70px 0px 20px 0px;
+}
+
+.section-b .gallery-story .header h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #232d51;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+
+.section-b .gallery-story .content .pic-display {
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-b .gallery-story .content {
+  background-color: #ebebeb;
+}
+
+.section-b .gallery-story .content .pic-display img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.section-b .gallery-story .content .pic-story {
+  height: 300px;
+  background-color: #ebebeb;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-b .gallery-story .content .pic-story h1 {
+  position: absolute;
+  top: 79px;
+  left: -30px;
+  font-size: 250px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #d8d8d8;
+}
+
+.section-b .gallery-story .content .pic-story hr {
+  border: 1px solid #eb127e;
+  width: 30%;
+  margin: 8px auto 0;
+}
+
+.section-b .gallery-story .content .pic-story p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 670;
+  color: #33384b;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  z-index: 2;
+}
+
+.section-b .gallery-display .content .pic-display {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-b .gallery-display .content .pic-display img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* section-b Ends */
+
+/* Section-c Starts */
+
+section.section-c {
+  background-color: #d8d8d8;
+  padding: 0px 0px 100px;
+  margin-top: -33px;
+}
+
+section.section-c .magazine-style {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+section.section-c .magazine-style img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+section.section-c .article-style {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+section.section-c .article-style .top-section {
+  height: 50%;
+  overflow: hidden;
+}
+
+section.section-c .article-style .top-section h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+  color: #33384b;
+  margin-bottom: 40px;
+}
+
+section.section-c .article-style .top-section p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 670;
+  color: #33384b;
+  font-family: "Lato", sans-serif;
+}
+
+section.section-c .article-style .bottom-section .pic {
+  height: 300px;
+  overflow: hidden;
+  width: 100%;
+}
+
+section.section-c .article-style .bottom-section .pic img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+/* Section-c Ends */
+
+/* Sectiob-d Starts */
+
+section.section-d {
+  background-color: #d8d8d8;
+  padding: 50px 0px 100px 0px;
+  position: relative;
+}
+
+section.section-d .bio-pic {
+  height: 540px;
+  width: 100%;
+  overflow: hidden;
+}
+
+section.section-d .bio-pic img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+section.section-d .biography {
+  position: absolute;
+  top: 75px;
+  overflow: hidden;
+}
+
+/* font-family: 'Cormorant Garamond', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+section.section-d .biography h1 {
+  text-transform: capitalize;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 70px;
+  font-weight: 700;
+  color: #33384b;
+  margin-bottom: 25px;
+  line-height: 85px;
+}
+section.section-d .biography h1 span {
+  font-size: 40px;
+  background-color: #33384b;
+  color: #ebebeb;
+  padding: 10px 20px;
+  border-bottom-right-radius: 20px;
+}
+
+section.section-d .biography .bio-content {
+  padding-left: 12px;
+  border-left: 2px solid #eb127e;
+}
+
+section.section-d .biography .bio-content {
+  padding-left: 12px;
+  border-left: 2px solid #eb127e;
+}
+
+section.section-d .biography .bio-content p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 18px;
+  color: #33384b;
+  margin-bottom: 25px;
+}
+
+section.section-d .biography blockquote {
+  position: relative;
+  padding-left: 30px;
+}
+
+section.section-d .biography blockquote p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #33384b;
+}
+
+section.section-d .biography blockquote p:before,
+section.section-d .biography blockquote p:after {
+  font-size: 55px;
+  color: #33384b;
+}
+
+section.section-d .biography blockquote p:before {
+  content: "“";
+  float: left;
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+
+section.section-d .biography blockquote p:after {
+  content: "”";
+  float: right;
+  position: absolute;
+  bottom: -9px;
+  right: 113px;
+}
